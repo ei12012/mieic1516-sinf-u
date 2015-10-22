@@ -11,18 +11,12 @@ namespace FirstREST.Controllers
 {
     public class TestaController : ApiController
     {
-        //
-        // GET: /Clientes/
-        //public IEnumerable<Lib_Primavera.Model.Cliente> Get()
-        //{
-        //    return Lib_Primavera.PriIntegration.ListaClientes();
-        //}
-
-        //
-        // GET: /Clientes/
-        public IEnumerable<Lib_Primavera.Model.Cliente> Get(Lib_Primavera.Auxiliar.Par arg)
+        // localhost:49822/api/testa?morada=#&contri=#
+        public IEnumerable<Lib_Primavera.Model.Cliente> Get(string morada, string contri)
         {
-            return Lib_Primavera.Integration.IntegracaoCliente.ListaClientes2(arg);
+            Lib_Primavera.Auxiliar.Par listaParam = new Lib_Primavera.Auxiliar.Par(morada, contri);
+
+            return Lib_Primavera.Integration.IntegracaoCliente.ListaClientes2(listaParam);
         }
     }
 }

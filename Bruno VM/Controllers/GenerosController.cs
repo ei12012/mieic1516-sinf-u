@@ -20,9 +20,12 @@ namespace FirstREST.Controllers
             return Lib_Primavera.Integration.IntegracaoGenero.ListaGeneros();
         }
 
-        public IEnumerable<Lib_Primavera.Model.Genero> Get(string codartigo)
+        // localhost:49822/api/generos?codartigo=#
+        public List<Lib_Primavera.Model.Genero> Get(string codartigo)
         {
-            return Lib_Primavera.Integration.IntegracaoGenero.ListaGenerosArtigos(codartigo);
+            List<Lib_Primavera.Model.Genero> lista = Lib_Primavera.Integration.IntegracaoGenero.ListaGenerosArtigos(codartigo);
+            return lista;
+            //return lista.ElementAt(0);
         }
     }
 }
