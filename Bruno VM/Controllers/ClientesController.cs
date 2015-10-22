@@ -33,7 +33,15 @@ namespace FirstREST.Controllers
             }
         }
 
-
+        // localhost:49822/api/clientes/
+        /*
+                {"Morada" : "Rua Junto A Outra Rua",
+                "CodCliente" : "C0004",
+                "NomeCliente" : "MariaMariaMariaMaria",
+                "NumContribuinte" : "123123123",
+                "Moeda" : "EUR"
+                }
+         */
         public HttpResponseMessage Post(Lib_Primavera.Model.Cliente cliente)
         {
             Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
