@@ -12,7 +12,7 @@ namespace FirstREST.Controllers
     public class CarrinhoController : ApiController
     {
         // localhost:49822/api/Carrinho?codcliente=#
-        public IEnumerable<Lib_Primavera.Model.Carrinho> Get(string codcliente)
+        public IEnumerable<Lib_Primavera.Join.CarrinhoPagamento> Get(string codcliente)
         {
             return Lib_Primavera.Integration.IntegracaoCarrinho.ListarCarrinho(codcliente);
         }
