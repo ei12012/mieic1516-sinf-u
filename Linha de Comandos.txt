@@ -1,8 +1,0 @@
-# PASTA ONDE COLOCAR A PASTA DO REPOSITORIO
-git clone link
-
-mv pastaRepositorio
-CICLO:
-	git add .
-	git commit -m "mensagem"
-	git push

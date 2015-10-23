@@ -1,0 +1,36 @@
+.footer-sinf1415
+{
+	text-align: center;
+}
+
+.search-box-sinf1455
+{
+	width: 100px;
+}
+
+.dropdown-menu-sinf1415
+{
+	padding:10px;
+	width: 250px;
+}
+
+.negrito-sinf1415
+{
+	font-weight: bold;
+}
+
+.conteudoDIV-sinf1415
+{
+	word-wrap: break-word;
+}
+
+.textarea-sinf1415
+{
+	resize: vertical;
+}
+
+hr
+{
+    height: 2px;
+    background-color:#ddd;
+}
