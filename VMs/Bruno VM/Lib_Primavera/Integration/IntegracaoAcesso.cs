@@ -63,5 +63,39 @@ namespace FirstREST.Lib_Primavera.Integration
             else
                 return null;
         }
+
+        public static Lib_Primavera.Model.RespostaErro Registar(View.AcessoLogin2 registo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Model.RespostaErro();
+
+            try
+            {
+                StdBELista objList;
+                List<View.AcessoLogin2> lista = new List<View.AcessoLogin2>();
+
+                if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
+                {
+                    string query = "Execute PDU_RegistarCliente @codigo = '" + registo.CodCliente + "', @nome = '" + registo.NomeCliente + "', @contribuinte = " + registo.NumContribuinte + ", @morada = '" + registo.Morada + "', @contacto = " + registo.contacto + ", @email = '" + registo.email + "', @sexo = '" + registo.sexo + "', @password = '" + sha1(registo.password) + "'";
+
+                    objList = PriEngine.Engine.Consulta(query);
+
+                    erro.Erro = 0;
+                    erro.Descricao = "Sucesso";
+                    return erro;
+                }
+                else
+                {
+                    erro.Erro = 1;
+                    erro.Descricao = "Erro ao abrir empresa";
+                    return erro;
+                }
+            }
+            catch (Exception ex)
+            {
+                erro.Erro = 1;
+                erro.Descricao = ex.Message;
+                return erro;
+            }
+        }
     }
 }

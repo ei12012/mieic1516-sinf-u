@@ -1,0 +1,8 @@
+1. CriarTabelas
+2. Procedimentos
+3. InserirDadosTDU
+4. InserirDadosERP
+
+Caso se queira limpar tudo:
+1. EliminarTabelasTDU
+2. EliminarTabelasERP

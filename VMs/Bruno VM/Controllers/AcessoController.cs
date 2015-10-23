@@ -27,5 +27,37 @@ namespace FirstREST.Controllers
                 return res.ElementAt(0);;
             }
         }
+
+        // localhost:49822/api/acesso/
+        /*
+                {"CodCliente" : "C010",
+                "NomeCliente" : "Persona X",
+                "NumContribuinte" : "123456789",
+                "Morada" : "Rua X",
+                "contacto" : "123456789",
+                "email" : "domain@host.com",
+                "sexo" : "M",
+                "pass" : "pass"
+                }
+         */
+        public HttpResponseMessage Post(Lib_Primavera.View.AcessoLogin2 registo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
+            erro = Lib_Primavera.Integration.IntegracaoAcesso.Registar(registo);
+
+            if (erro.Erro == 0)
+            {
+                var response = Request.CreateResponse(
+                   HttpStatusCode.Created, registo);
+                string uri = Url.Link("DefaultApi", new { CodCliente = registo.CodCliente });
+                response.Headers.Location = new Uri(uri);
+                return response;
+            }
+
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest);
+            }
+        }
     }
 }
