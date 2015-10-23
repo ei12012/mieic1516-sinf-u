@@ -13,7 +13,7 @@ namespace FirstREST.Controllers
     public class ClassificacaoController : ApiController
     {
         // localhost:49822/api/classificacao?codartigo=#
-        public IEnumerable<Lib_Primavera.Join.ClassificacaoA> Get(string codartigo)
+        public IEnumerable<Lib_Primavera.View.ClassificacaoA> Get(string codartigo)
         {
             return Lib_Primavera.Integration.IntegracaoClassificacao.ListaClassificacoes(codartigo);
         }

@@ -7,11 +7,11 @@ INSERT INTO [dbo].[TDU_ClienteAuxiliar]
 	,[CDU_Email]
 	,[CDU_Password])
      VALUES
-	('C0001','M', 'ei12012@fe.up.pt', '9d4e1e23bd5b727046a9e3b4b7db56db8d6ee684'),
-	('C0002','M', 'altera@fe.up.pt', '9d4e1e23bd5b727046a9e3b4b7db56db8d6ee684'),
-	('C0003','M', 'ei11009@fe.up.pt', '9d4e1e23bd5b727046a9e3b4b7db56db8d6ee684'),
-	('C0004','M', 'up201002597@fc.up.pt', '9d4e1e23bd5b727046a9e3b4b7db56db8d6ee684'),
-	('C0005','F', 'up201107685@fc.up.pt', '9d4e1e23bd5b727046a9e3b4b7db56db8d6ee684')
+	('C0001','M', 'ei12012@fe.up.pt', '9D4E1E23BD5B727046A9E3B4B7DB57BD8D6EE684'),
+	('C0002','M', 'altera@fe.up.pt', '9D4E1E23BD5B727046A9E3B4B7DB57BD8D6EE684'),
+	('C0003','M', 'ei11009@fe.up.pt', '9D4E1E23BD5B727046A9E3B4B7DB57BD8D6EE684'),
+	('C0004','M', 'up201002597@fc.up.pt', '9D4E1E23BD5B727046A9E3B4B7DB57BD8D6EE684'),
+	('C0005','F', 'up201107685@fc.up.pt', '9D4E1E23BD5B727046A9E3B4B7DB57BD8D6EE684')
 GO
 
 INSERT INTO [dbo].[TDU_ArtigoAuxiliar]

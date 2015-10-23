@@ -13,10 +13,10 @@ namespace FirstREST.Lib_Primavera.Integration
 {
     public class IntegracaoClassificacao
     {
-        public static List<Join.ClassificacaoA> ListaClassificacoes(string codartigo)
+        public static List<View.ClassificacaoA> ListaClassificacoes(string codartigo)
         {
             StdBELista objList;
-            List<Join.ClassificacaoA> lista = new List<Join.ClassificacaoA>();
+            List<View.ClassificacaoA> lista = new List<View.ClassificacaoA>();
 
             if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
             {
@@ -27,7 +27,7 @@ namespace FirstREST.Lib_Primavera.Integration
 
                 while (!objList.NoFim())
                 {
-                    lista.Add(new Join.ClassificacaoA
+                    lista.Add(new View.ClassificacaoA
                     {
                         valor = objList.Valor("CDU_Valor"),
                         comentario = objList.Valor("CDU_Comentario"),
