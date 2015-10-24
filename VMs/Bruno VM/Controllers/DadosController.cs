@@ -10,32 +10,17 @@ using FirstREST.Lib_Primavera.Model;
 
 namespace FirstREST.Controllers
 {
-    public class AcessoController : ApiController
+    public class DadosController : ApiController
     {
-        // GET /api/acesso?email=ei12012@fe.up.pt&password=pass
-        public Lib_Primavera.View.AcessoLogin2 Get(string email, string password)
-        {
-            List<Lib_Primavera.View.AcessoLogin2> res = Lib_Primavera.Integration.IntegracaoAcesso.Login(email, password);
-
-            if (res.Count() == 0)
-            {
-                throw new HttpResponseException(
-                  Request.CreateResponse(HttpStatusCode.NotFound));
-            }
-            else
-            {
-                return res.ElementAt(0);;
-            }
-        }
-
-        // localhost:49822/api/acesso/
+        // localhost:49822/api/dados/
         /*
-                {"CodCliente" : "C0010",
-                "NomeCliente" : "Persona X",
-                "NumContribuinte" : "123456789",
-                "Morada" : "Rua X",
-                "contacto" : "123456789",
-                "email" : "domain@host.com",
+                {"CodCliente" : "C0001",
+                "NomeCliente" : "Bruno Moreira",
+                "NumContribuinte" : "111111111",
+                "Morada" : "Rua A",
+                "Moeda" : "EUR",
+                "contacto" : "111111111",
+                "email" : "ei12012@fe.up.pt",
                 "sexo" : "M",
                 "password" : "pass"
                 }
@@ -43,7 +28,7 @@ namespace FirstREST.Controllers
         public HttpResponseMessage Post(Lib_Primavera.View.AcessoLogin2 registo)
         {
             Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
-            erro = Lib_Primavera.Integration.IntegracaoAcesso.Registar(registo);
+            erro = Lib_Primavera.Integration.IntegracaoAcesso.AlterarDados(registo);
 
             if (erro.Erro == 0)
             {

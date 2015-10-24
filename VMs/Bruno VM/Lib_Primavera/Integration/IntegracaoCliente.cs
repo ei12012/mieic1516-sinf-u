@@ -43,8 +43,6 @@ namespace FirstREST.Lib_Primavera.Integration
                 return null;
         }
 
-        
-
         public static Lib_Primavera.Model.Cliente GetCliente(string codCliente)
         {
             GcpBECliente objCli = new GcpBECliente();
@@ -72,42 +70,11 @@ namespace FirstREST.Lib_Primavera.Integration
                 return null;
         }
 
-        // lista 2 argumentos
-        public static List<Model.Cliente> ListaClientes2(Lib_Primavera.Auxiliar.Par lista)
-        {
-            StdBELista objList;
-            List<Model.Cliente> listClientes = new List<Model.Cliente>();
-
-            if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
-            {
-                //objList = PriEngine.Engine.Comercial.Clientes.LstClientes();
-                string query = "SELECT Cliente, Nome, Moeda, NumContrib as NumContribuinte, Fac_Mor AS campo_exemplo FROM  CLIENTES WHERE Fac_Mor = '" + lista.var1 + "' AND NumContrib = " + lista.var2;
-
-                objList = PriEngine.Engine.Consulta(query);
-
-                while (!objList.NoFim())
-                {
-                    listClientes.Add(new Model.Cliente
-                    {
-                        CodCliente = objList.Valor("Cliente"),
-                        NomeCliente = objList.Valor("Nome"),
-                        Moeda = objList.Valor("Moeda"),
-                        NumContribuinte = objList.Valor("NumContribuinte"),
-                        Morada = objList.Valor("campo_exemplo")
-                    });
-                    objList.Seguinte();
-                }
-                return listClientes;
-            }
-            else
-                return null;
-        }
-
         public static Lib_Primavera.Model.RespostaErro UpdCliente(Lib_Primavera.Model.Cliente cliente)
         {
             Lib_Primavera.Model.RespostaErro erro = new Model.RespostaErro();
-
             GcpBECliente objCli = new GcpBECliente();
+
             try
             {
                 if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
@@ -197,8 +164,6 @@ namespace FirstREST.Lib_Primavera.Integration
 
         }
 
-
-
         public static Lib_Primavera.Model.RespostaErro InsereClienteObj(Model.Cliente cli)
         {
             Lib_Primavera.Model.RespostaErro erro = new Model.RespostaErro();
@@ -234,63 +199,5 @@ namespace FirstREST.Lib_Primavera.Integration
                 return erro;
             }
         }
-
-
-
-        // POST : (username/Cliente, Password)
-        public static Lib_Primavera.Model.RespostaErro Login(Auxiliar.Par cli)
-        {
-            Lib_Primavera.Model.RespostaErro erro = new Model.RespostaErro();
-
-            GcpBECliente objCli = new GcpBECliente();
-            try
-            {
-                if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
-                {
-                    if (PriEngine.Engine.Comercial.Clientes.Existe(cli.var1) == false)
-                    {
-                        erro.Erro = 1;
-                        erro.Descricao = "O cliente não existe";
-                        return erro;
-                    }
-                    else
-                    {
-                        objCli = PriEngine.Engine.Comercial.Clientes.Edita(cli.var1);
-
-                        string password = objCli.get_NumContribuinte();
-                        
-                        if (password == cli.var2)
-                        {
-                            erro.Erro = 0;
-                            erro.Descricao = "Sucesso";
-                            return erro;
-                        }
-                        else
-                        {
-                            erro.Erro = 1;
-                            erro.Descricao = "Querias";
-                            return erro;
-                        }
-                        
-                    }
-                }
-                else
-                {
-                    erro.Erro = 1;
-                    erro.Descricao = "Erro ao abrir a empresa";
-                    return erro;
-                }
-
-            }
-            catch (Exception ex)
-            {
-                erro.Erro = 1;
-                erro.Descricao = ex.Message;
-                return erro;
-            }
-        }
-
-
-
     }
 }

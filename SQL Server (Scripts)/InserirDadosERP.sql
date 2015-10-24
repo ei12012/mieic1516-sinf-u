@@ -34,218 +34,217 @@ GO
 
 /* ARTIGOS */
 Execute PDU_RegistarArtigo
-@codigo = 'GRAND THEFT AUTO V (PS3)', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0001', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = 'GRAND THEFT AUTO V (PS3)',
 @stock = 20, @preco = 59.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'GRAND THEFT AUTO V (PS4)', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0002', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = 'GRAND THEFT AUTO V (PS4)',
 @stock = 20, @preco = 59.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'GRAND THEFT AUTO V (PC)', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0003', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = 'GRAND THEFT AUTO V (PC)',
 @stock = 20, @preco = 59.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'GRAND THEFT AUTO V (X360)', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0004', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = 'GRAND THEFT AUTO V (X360)',
 @stock = 20, @preco = 59.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'GRAND THEFT AUTO V (XONE)', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0005', @empresa = 'Rockstar Games', @ano = 2013, @idade = 18, @descricao = 'GRAND THEFT AUTO V (XONE)',
 @stock = 20, @preco = 59.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'FINAL FANTASY XIV: A REALM REBORN (PS3)', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = '',
+@codigo = 'A0006', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = 'FINAL FANTASY XIV: A REALM REBORN (PS3)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'FINAL FANTASY XIV: A REALM REBORN (PS4)', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = '',
+@codigo = 'A0007', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = 'FINAL FANTASY XIV: A REALM REBORN (PS4)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'FINAL FANTASY XIV: A REALM REBORN (PC)', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = '',
+@codigo = 'A0008', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = 'FINAL FANTASY XIV: A REALM REBORN (PC)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'FINAL FANTASY XIV: A REALM REBORN (X360)', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = '',
+@codigo = 'A0009', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = 'FINAL FANTASY XIV: A REALM REBORN (X360)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'FINAL FANTASY XIV: A REALM REBORN (XONE)', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = '',
+@codigo = 'A0010', @empresa = 'Square Enix', @ano = 2013, @idade = 16, @descricao = 'FINAL FANTASY XIV: A REALM REBORN (XONE)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'MINECRAFT (PS3)', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = '',
+@codigo = 'A0011', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = 'MINECRAFT (PS3)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'MINECRAFT (PS4)', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = '',
+@codigo = 'A0012', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = 'MINECRAFT (PS4)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'MINECRAFT (PSP)', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = '',
+@codigo = 'A0013', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = 'MINECRAFT (PSP)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'MINECRAFT (PSV)', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = '',
+@codigo = 'A0014', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = 'MINECRAFT (PSV)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'MINECRAFT (PC)', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = '',
+@codigo = 'A0015', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = 'MINECRAFT (PC)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'MINECRAFT (X360)', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = '',
+@codigo = 'A0016', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = 'MINECRAFT (X360)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'MINECRAFT (XONE)', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = '',
+@codigo = 'A0017', @empresa = 'Mojang', @ano = 2011, @idade = 12, @descricao = 'MINECRAFT (XONE)',
 @stock = 20, @preco = 19.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'ASSASSIN''S CREED: UNITY (PS3)', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0018', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = 'ASSASSIN''S CREED: UNITY (PS3)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'ASSASSIN''S CREED: UNITY (PS4)', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0019', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = 'ASSASSIN''S CREED: UNITY (PS4)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'ASSASSIN''S CREED: UNITY (XBOX)', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0020', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = 'ASSASSIN''S CREED: UNITY (XBOX)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'ASSASSIN''S CREED: UNITY (XONE)', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0021', @empresa = 'Ubisoft', @ano = 2013, @idade = 4, @descricao = 'ASSASSIN''S CREED: UNITY (XONE)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'CALL OF DUTY: ADVANCED WARFARE (PS3)', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0022', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = 'CALL OF DUTY: ADVANCED WARFARE (PS3)',
 @stock = 20, @preco = 39.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'CALL OF DUTY: ADVANCED WARFARE (PS4)', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0023', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = 'CALL OF DUTY: ADVANCED WARFARE (PS4)',
 @stock = 20, @preco = 39.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'CALL OF DUTY: ADVANCED WARFARE (PC)', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0024', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = 'CALL OF DUTY: ADVANCED WARFARE (PC)',
 @stock = 20, @preco = 39.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'CALL OF DUTY: ADVANCED WARFARE (X360)', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0025', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = 'CALL OF DUTY: ADVANCED WARFARE (X360)',
 @stock = 20, @preco = 39.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'CALL OF DUTY: ADVANCED WARFARE (XONE)', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = '',
+@codigo = 'A0026', @empresa = 'Actionvision', @ano = 2013, @idade = 18, @descricao = 'CALL OF DUTY: ADVANCED WARFARE (XONE)',
 @stock = 20, @preco = 39.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'TEKKEN 6 (PS3)', @empresa = 'KONAMI', @ano = 2007, @idade = 12, @descricao = '',
+@codigo = 'A0027', @empresa = 'KONAMI', @ano = 2007, @idade = 12, @descricao = 'TEKKEN 6 (PS3)',
 @stock = 20, @preco = 14.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'TEKKEN 6 (PSP)', @empresa = 'KONAMI', @ano = 2007, @idade = 12, @descricao = '',
+@codigo = 'A0028', @empresa = 'KONAMI', @ano = 2007, @idade = 12, @descricao = 'TEKKEN 6 (PSP)',
 @stock = 20, @preco = 9.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'PRO EVOLUTION SOCCER 2016 (PS3)', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0029', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = 'PRO EVOLUTION SOCCER 2016 (PS3)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'PRO EVOLUTION SOCCER 2016 (PS4)', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0030', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = 'PRO EVOLUTION SOCCER 2016 (PS4)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'PRO EVOLUTION SOCCER 2016 (PC)', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0031', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = 'PRO EVOLUTION SOCCER 2016 (PC)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'PRO EVOLUTION SOCCER 2016 (X360)', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0032', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = 'PRO EVOLUTION SOCCER 2016 (X360)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'PRO EVOLUTION SOCCER 2016 (XONE)', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = '',
+@codigo = 'A0033', @empresa = 'KONAMI', @ano = 2013, @idade = 4, @descricao = 'PRO EVOLUTION SOCCER 2016 (XONE)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'POKÉMON OMEGA RUBY (3DS)', @empresa = 'Gamefreak', @ano = 2014, @idade = 6, @descricao = '',
+@codigo = 'A0034', @empresa = 'Gamefreak', @ano = 2014, @idade = 6, @descricao = 'POKÉMON OMEGA RUBY (3DS)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'POKÉMON ALPHA SAPPHIRE (3DS)', @empresa = 'Gamefreak', @ano = 2014, @idade = 6, @descricao = '',
+@codigo = 'A0035', @empresa = 'Gamefreak', @ano = 2014, @idade = 6, @descricao = 'POKÉMON ALPHA SAPPHIRE (3DS)',
 @stock = 20, @preco = 24.99;
 
 GO
 
 Execute PDU_RegistarArtigo
-@codigo = 'THE LEGEND OF ZELDA: MAJORA''S MASK 3D (3DS)', @empresa = 'Grezzo', @ano = 2015, @idade = 12, @descricao = '',
+@codigo = 'A0036', @empresa = 'Grezzo', @ano = 2015, @idade = 12, @descricao = 'THE LEGEND OF ZELDA: MAJORA''S MASK 3D (3DS)',
 @stock = 20, @preco = 24.99;
 
 GO
-

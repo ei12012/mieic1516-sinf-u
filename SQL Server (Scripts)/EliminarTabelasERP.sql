@@ -1,10 +1,7 @@
 USE [PRI2015]
 GO
 
-DELETE FROM Clientes WHERE 1 = 1;
-GO
-
-DELETE FROM Artigo WHERE 1 = 1;
+DELETE FROM Clientes WHERE Cliente <> 'VD';
 GO
 
 DELETE FROM ArtigoMoeda WHERE 1 = 1;
@@ -12,3 +9,8 @@ GO
 
 DELETE FROM ArtigoArmazem WHERE 1 = 1;
 GO
+
+DELETE FROM Artigo WHERE 1 = 1;
+GO
+
+

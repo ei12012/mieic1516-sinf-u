@@ -17,11 +17,36 @@ CREATE PROCEDURE PDU_RegistarCliente
 @sexo char,
 @password varchar(70)
 AS
-	INSERT INTO Clientes(Cliente, Nome, NomeFiscal, Fac_Tel, Fac_Mor, NumContrib)
-	VALUES(@codigo, @nome, @nome, @contacto, @morada,@contribuinte);
+	INSERT INTO Clientes(Cliente, Nome, NomeFiscal, Fac_Tel, Fac_Mor, NumContrib, Moeda)
+	VALUES(@codigo, @nome, @nome, @contacto, @morada,@contribuinte, 'EUR');
 
 	INSERT INTO TDU_ClienteAuxiliar(CDU_codCliente, CDU_Email, CDU_Sexo, CDU_Password)
 	VALUES(@codigo, @email, @sexo, @password);
+GO
+
+CREATE PROCEDURE PDU_AlterarCliente
+@codigo varchar(50),
+@nome varchar(50),
+@contribuinte int,
+@morada varchar(50),
+@contacto int,
+@email varchar(50),
+@sexo char
+AS
+	UPDATE Clientes
+	SET
+		Nome = @nome,
+		NomeFiscal = @nome,
+		NumContrib = @contribuinte,
+		Fac_Mor = @morada,
+		Fac_Tel = @contacto
+	WHERE Cliente = @codigo;
+
+	UPDATE TDU_ClienteAuxiliar
+	SET
+		CDU_Email = @email,
+		CDU_Sexo = @sexo
+	WHERE CDU_codCliente = @codigo;
 GO
 
 /*

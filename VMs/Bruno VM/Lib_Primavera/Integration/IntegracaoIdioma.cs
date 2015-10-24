@@ -39,28 +39,24 @@ namespace FirstREST.Lib_Primavera.Integration
                 return null;
         }
 
-        public static List<Lib_Primavera.Model.Genero> ListaIdiomasArtigos(string codartigo)
+        public static List<Lib_Primavera.View.ArtigoIdioma> ListaIdiomasArtigos(string codartigo)
         {
             StdBELista objList;
 
-            Model.Genero art = new Model.Genero();
-            List<Model.Genero> lista = new List<Model.Genero>();
+            View.ArtigoIdioma art = new View.ArtigoIdioma();
+            List<View.ArtigoIdioma> lista = new List<View.ArtigoIdioma>();
 
             if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
             {
-                string select = "SELECT TDU_Idioma.CDU_ID AS CDU_ID, TDU_Idioma.CDU_Nome AS CDU_Nome";
-                string from = "FROM TDU_ArtigoIdioma, TDU_Idioma, TDU_Artigo";
-                string where = "WHERE TDU_ArtigoIdioma.CDU_idArtigo = TDU_Artigo.ID AND TDU_ArtigoIdioma.CDU_idIdioma = TDU_Idioma.ID AND TDU_Artigo.ID = " + codartigo;
-
-                string query = select + from + where;
+                string query = "SELECT TDU_Idioma.CDU_ID, TDU_Idioma.CDU_Nome,TDU_ArtigoIdioma.CDU_Tipo FROM TDU_ArtigoIdioma, TDU_Idioma WHERE TDU_ArtigoIdioma.CDU_idIdioma = TDU_Idioma.CDU_ID AND TDU_ArtigoIdioma.CDU_idArtigo = '" + codartigo + "' ORDER BY CDU_Tipo, CDU_ID";
                 objList = PriEngine.Engine.Consulta(query);
 
                 while (!objList.NoFim())
                 {
-                    art = new Model.Genero();
+                    art = new View.ArtigoIdioma();
                     art.ID = objList.Valor("CDU_ID");
                     art.Nome = objList.Valor("CDU_Nome");
-
+                    art.Tipo = objList.Valor("CDU_Tipo");
                     lista.Add(art);
                     objList.Seguinte();
                 }

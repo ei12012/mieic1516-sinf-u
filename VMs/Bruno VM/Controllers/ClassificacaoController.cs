@@ -20,7 +20,7 @@ namespace FirstREST.Controllers
 
         // localhost:49822/api/classificacao/
         /*
-                {"codArtigo" : "PRO EVOLUTION SOCCER 2016 (PS3)",
+                {"codArtigo" : "A0003",
                 "codCliente" : "C0002",
                 "valor" : "81",
                 "comentario" : "Fixe"

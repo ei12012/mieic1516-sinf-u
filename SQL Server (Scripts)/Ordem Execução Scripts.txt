@@ -1,6 +1,4 @@
-Quais quer erros que apareçam, ignorem.
-
-1. CriarTabelasTDU
+1. CriarTabelas
 2. Procedimentos
 3. InserirDadosTDU
 4. InserirDadosERP
