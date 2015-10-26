@@ -71,8 +71,6 @@ namespace FirstREST.Lib_Primavera.Integration
             }
         }
 
-
-
         public static List<Model.DocVenda> Encomendas_List()
         {
 
@@ -123,9 +121,6 @@ namespace FirstREST.Lib_Primavera.Integration
             }
             return listdv;
         }
-
-
-
 
         public static Model.DocVenda Encomenda_Get(string numdoc)
         {

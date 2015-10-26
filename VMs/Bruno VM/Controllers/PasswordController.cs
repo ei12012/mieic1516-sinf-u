@@ -16,7 +16,7 @@ namespace FirstREST.Controllers
          *      "password" : "pass"
                 }
         */
-        public HttpResponseMessage Post(Lib_Primavera.View.AcessoLogin registo)
+        public HttpResponseMessage Put(Lib_Primavera.View.AcessoLogin registo)
         {
             Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
 

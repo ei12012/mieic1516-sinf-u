@@ -36,6 +36,43 @@ namespace FirstREST.Controllers
             }
         }
 
+        // localhost:49822/api/artigos/
+        /*
+                {"CodArtigo" : "A0001",
+                "Descricao" : "Grand Theft Auto V (PS3)",
+                "Stock" : "20",
+                "Moeda" : "EUR",
+                "Preco" : "19.99",
+                "Empresa" : "Rockstar Games",
+                "Ano" : "2013",
+                "Idade" : "18",
+                "Oculto" : "true",
+                "Visitas" : "0"
+                }
+         */
+        public HttpResponseMessage Put(Lib_Primavera.Model.Artigo registo)
+        {
+
+            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
+
+            try
+            {
+                erro = Lib_Primavera.Integration.IntegracaoArtigo.AlterarDadosMain(registo);
+                if (erro.Erro == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                }
+            }
+
+            catch (Exception exc)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
+            }
+        }
     }
 }
 

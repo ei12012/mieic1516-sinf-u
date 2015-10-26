@@ -12,7 +12,7 @@ namespace FirstREST.Controllers
 {
     public class ClassificacaoController : ApiController
     {
-        // localhost:49822/api/classificacao?codartigo=#
+        // localhost:49822/api/classificacao?codartigo=A0001
         public IEnumerable<Lib_Primavera.View.ClassificacaoA> Get(string codartigo)
         {
             return Lib_Primavera.Integration.IntegracaoClassificacao.ListaClassificacoes(codartigo);
@@ -29,22 +29,23 @@ namespace FirstREST.Controllers
         public HttpResponseMessage Post(Lib_Primavera.Model.Classificacao cla)
         {
             Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
-            erro = Lib_Primavera.Integration.IntegracaoClassificacao.InsereClassificacao(cla);
 
-            if (erro.Erro == 0)
+            try
             {
-                var response = Request.CreateResponse(
-                   HttpStatusCode.Created, cla);
-                string uri = Url.Link("DefaultApi", new { CodCliente = cla.codArtigo });
-                response.Headers.Location = new Uri(uri);
-                return response;
+                erro = Lib_Primavera.Integration.IntegracaoClassificacao.InsereClassificacao(cla);
+                if (erro.Erro == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                }
             }
-
-            else
+            catch (Exception exc)
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest);
+                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
             }
-
         }
     }
 }

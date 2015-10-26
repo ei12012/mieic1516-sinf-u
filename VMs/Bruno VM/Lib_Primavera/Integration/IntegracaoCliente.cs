@@ -139,7 +139,6 @@ namespace FirstREST.Lib_Primavera.Integration
                     }
                     else
                     {
-
                         PriEngine.Engine.Comercial.Clientes.Remove(codCliente);
                         erro.Erro = 0;
                         erro.Descricao = "Sucesso";
