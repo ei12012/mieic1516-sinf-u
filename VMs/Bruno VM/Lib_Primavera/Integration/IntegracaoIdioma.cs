@@ -67,5 +67,85 @@ namespace FirstREST.Lib_Primavera.Integration
                 return null;
             }
         }
+
+        public static Lib_Primavera.Model.RespostaErro NovoIdioma(Model.ArtigoIdioma registo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Model.RespostaErro();
+
+            try
+            {
+                if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
+                {
+                    StdBERegistoUtil objRegisto = new StdBERegistoUtil();
+                    StdBECampos campos = new StdBECampos();
+                    StdBECampo cmp1 = new StdBECampo();
+                    StdBECampo cmp2 = new StdBECampo();
+                    StdBECampo cmp3 = new StdBECampo();
+
+                    cmp1.Nome = "CDU_idArtigo";
+                    cmp2.Nome = "CDU_idIdioma";
+                    cmp3.Nome = "CDU_Tipo";
+
+                    cmp1.Valor = registo.idArtigo;
+                    cmp2.Valor = registo.idIdioma;
+                    cmp3.Valor = registo.Tipo;
+
+                    campos.Insere(cmp1);
+                    campos.Insere(cmp2);
+                    campos.Insere(cmp3);
+
+                    objRegisto.set_Campos(campos);
+                    PriEngine.Engine.TabelasUtilizador.Actualiza("TDU_ArtigoIdioma", objRegisto);
+
+                    erro.Erro = 0;
+                    erro.Descricao = "Sucesso";
+                    return erro;
+                }
+                else
+                {
+                    erro.Erro = 1;
+                    erro.Descricao = "Erro ao abrir empresa";
+                    return erro;
+                }
+            }
+            catch (Exception ex)
+            {
+                erro.Erro = 1;
+                erro.Descricao = ex.Message;
+                return erro;
+            }
+        }
+
+        public static Lib_Primavera.Model.RespostaErro ApagarIdiomas(string CodArtigo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Model.RespostaErro();
+
+            try
+            {
+                if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
+                {
+                    StdBECamposChave chave = new StdBECamposChave();
+                    chave.AddCampoChave("CDU_idArtigo", CodArtigo);
+
+                    PriEngine.Engine.TabelasUtilizador.Remove("TDU_ArtigoIdioma", chave);
+
+                    erro.Erro = 0;
+                    erro.Descricao = "Sucesso";
+                    return erro;
+                }
+                else
+                {
+                    erro.Erro = 1;
+                    erro.Descricao = "Erro ao abrir a empresa";
+                    return erro;
+                }
+            }
+            catch (Exception ex)
+            {
+                erro.Erro = 1;
+                erro.Descricao = ex.Message;
+                return erro;
+            }
+        }
     }
 }

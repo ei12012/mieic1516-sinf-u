@@ -8,6 +8,7 @@ using Interop.StdBE800;
 using Interop.GcpBE800;
 using ADODB;
 using Interop.IGcpBS800;
+using System.Globalization;
 //using Interop.StdBESql800;
 //using Interop.StdBSSql800;
 
@@ -126,6 +127,45 @@ namespace FirstREST.Lib_Primavera.Integration
             }
             else
                 return null;
+        }
+
+        public static Lib_Primavera.Model.RespostaErro Registar(Model.Artigo registo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Model.RespostaErro();
+
+            try
+            {
+                StdBELista objList;
+
+                if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
+                {
+                    Double v = registo.Preco;
+
+                    NumberFormatInfo nfi = new NumberFormatInfo();
+                    nfi.NumberDecimalSeparator = ".";
+                    string add = v.ToString(nfi);
+                    
+                    string query = "Execute PDU_RegistarArtigo @codigo = '" + registo.CodArtigo + "', @empresa = '" + registo.Empresa + "', @ano = " + registo.Ano + ", @idade = " + registo.Idade + ", @descricao = '" + registo.Descricao + "', @stock = " + registo.Stock + ", @preco = " + add;
+
+                    objList = PriEngine.Engine.Consulta(query);
+
+                    erro.Erro = 0;
+                    erro.Descricao = "Sucesso";
+                    return erro;
+                }
+                else
+                {
+                    erro.Erro = 1;
+                    erro.Descricao = "Erro ao abrir empresa";
+                    return erro;
+                }
+            }
+            catch (Exception ex)
+            {
+                erro.Erro = 1;
+                erro.Descricao = ex.Message;
+                return erro;
+            }
         }
 
         public static Lib_Primavera.Model.RespostaErro AlterarDadosMain(Model.Artigo registo)

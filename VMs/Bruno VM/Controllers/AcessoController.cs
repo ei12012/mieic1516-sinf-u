@@ -19,12 +19,13 @@ namespace FirstREST.Controllers
 
             if (res.Count() == 0)
             {
-                throw new HttpResponseException(
-                  Request.CreateResponse(HttpStatusCode.NotFound));
+                return null;
+                //throw new HttpResponseException(
+                  //Request.CreateResponse(HttpStatusCode.NotFound));
             }
             else
             {
-                return res.ElementAt(0);;
+                return res.ElementAt(0);
             }
         }
 

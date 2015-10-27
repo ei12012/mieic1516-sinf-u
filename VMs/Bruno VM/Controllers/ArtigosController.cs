@@ -27,12 +27,50 @@ namespace FirstREST.Controllers
 
             if (artigo.Count() == 0)
             {
-                throw new HttpResponseException(
-                  Request.CreateResponse(HttpStatusCode.NotFound));
+                return null;
+
+                //throw new HttpResponseException(
+                  //Request.CreateResponse(HttpStatusCode.NotFound));
             }
             else
             {
                 return artigo.ElementAt(0);
+            }
+        }
+
+        // localhost:49822/api/artigos/
+        /*
+                {"CodArtigo" : "A0101",
+                "Descricao" : "Grand Theft Auto VI (PS4)",
+                "Stock" : "20",
+                "Moeda" : "EUR",
+                "Preco" : "79.99",
+                "Empresa" : "Rockstar Games",
+                "Ano" : "2020",
+                "Idade" : "18",
+                "Oculto" : "false",
+                "Visitas" : "0"
+                }
+        */
+        public HttpResponseMessage Post(Lib_Primavera.Model.Artigo registo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
+
+            try
+            {
+                erro = Lib_Primavera.Integration.IntegracaoArtigo.Registar(registo);
+                if (erro.Erro == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                }
+            }
+            catch (Exception exc)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
             }
         }
 

@@ -24,5 +24,50 @@ namespace FirstREST.Controllers
             List<Lib_Primavera.View.ArtigoIdioma> lista = Lib_Primavera.Integration.IntegracaoIdioma.ListaIdiomasArtigos(codartigo);
             return lista;
         }
+
+
+        public HttpResponseMessage Post(Lib_Primavera.Model.ArtigoIdioma registo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
+
+            try
+            {
+                erro = Lib_Primavera.Integration.IntegracaoIdioma.NovoIdioma(registo);
+                if (erro.Erro == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                }
+            }
+            catch (Exception exc)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
+            }
+        }
+
+        public HttpResponseMessage Delete(string codartigo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
+
+            try
+            {
+                erro = Lib_Primavera.Integration.IntegracaoIdioma.ApagarIdiomas(codartigo);
+                if (erro.Erro == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                }
+            }
+            catch (Exception exc)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
+            }
+        }
     }
 }

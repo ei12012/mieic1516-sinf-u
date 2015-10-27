@@ -24,5 +24,49 @@ namespace FirstREST.Controllers
             List<Lib_Primavera.Model.Genero> lista = Lib_Primavera.Integration.IntegracaoGenero.ListaGenerosArtigos(codartigo);
             return lista;
         }
+
+        public HttpResponseMessage Post(Lib_Primavera.Model.ArtigoGenero registo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
+
+            try
+            {
+                erro = Lib_Primavera.Integration.IntegracaoGenero.NovoGenero(registo);
+                if (erro.Erro == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                }
+            }
+            catch (Exception exc)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
+            }
+        }
+
+        public HttpResponseMessage Delete(string codartigo)
+        {
+            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
+
+            try
+            {
+                erro = Lib_Primavera.Integration.IntegracaoGenero.ApagarGeneros(codartigo);
+                if (erro.Erro == 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                }
+            }
+            catch (Exception exc)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
+            }
+        }
     }
 }
