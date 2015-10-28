@@ -1,11 +1,10 @@
 Lista do que falta fazer, apaguem caso tenham feito
 -----
 #Por escolher
-WS_EDITAR_JOGO
+WS_ADICIONAR_CARRINHO
 
 -----
 #Bruno
-WS_REGISTAR_JOGO
 
 #Carreira
 WS_LISTAR_CARRINHO
@@ -14,10 +13,9 @@ WS_ENCOMENDAR
 WS_COMPRAR
 
 #Luis
-WS_PESQUISAR
 
 #José
-WS_ADICIONAR_CARRINHO
+
 
 #Mariana
 
