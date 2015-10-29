@@ -7,7 +7,6 @@ namespace FirstREST.Lib_Primavera.Model
 {
     public class DocVenda
     {
-
         public string id
         {
             get;
@@ -45,12 +44,16 @@ namespace FirstREST.Lib_Primavera.Model
         }
 
         public List<Model.LinhaDocVenda> LinhasDoc
-
         {
             get;
             set;
         }
- 
+
+        public string tipoDoc
+        {
+            get;
+            set;
+        }
 
     }
 }

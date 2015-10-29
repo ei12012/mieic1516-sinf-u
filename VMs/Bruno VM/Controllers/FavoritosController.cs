@@ -8,11 +8,13 @@ using System.Net.Http;
 using System.Web.Http;
 using FirstREST.Lib_Primavera.Model;
 
-
 namespace FirstREST.Controllers
 {
-    public class DocVendaController : ApiController
+    public class FavoritosController : ApiController
     {
-
+        public IEnumerable<Lib_Primavera.Model.Artigo> Get()
+        {
+            return Lib_Primavera.Integration.IntegracaoArtigo.ListaArtigosMaisVisitados();
+        }
     }
 }

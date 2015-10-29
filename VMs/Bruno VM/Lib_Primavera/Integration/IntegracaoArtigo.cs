@@ -98,7 +98,7 @@ namespace FirstREST.Lib_Primavera.Integration
 
             if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
             {
-                string query = "SELECT TOP 5 Artigo.Artigo as CodArtigo, Artigo.Descricao, Artigo.STKActual as Stock, ArtigoMoeda.Moeda as Moeda, ArtigoMoeda.PVP1 as Preco, TDU_ArtigoAuxiliar.CDU_Empresa, TDU_ArtigoAuxiliar.CDU_Ano, TDU_ArtigoAuxiliar.CDU_Idade, TDU_ArtigoAuxiliar.CDU_Visitas, TDU_ArtigoAuxiliar.CDU_Oculto FROM Artigo, ArtigoMoeda, TDU_ArtigoAuxiliar WHERE Artigo.Artigo = ArtigoMoeda.Artigo AND Artigo.Artigo = TDU_ArtigoAuxiliar.CDU_codArtigo ORDER BY TDU_ArtigoAuxiliar.CDU_Visitas";
+                string query = "SELECT TOP 5 Artigo.Artigo as CodArtigo, Artigo.Descricao, Artigo.STKActual as Stock, ArtigoMoeda.Moeda as Moeda, ArtigoMoeda.PVP1 as Preco, TDU_ArtigoAuxiliar.CDU_Empresa, TDU_ArtigoAuxiliar.CDU_Ano, TDU_ArtigoAuxiliar.CDU_Idade, TDU_ArtigoAuxiliar.CDU_Visitas, TDU_ArtigoAuxiliar.CDU_Oculto FROM Artigo, ArtigoMoeda, TDU_ArtigoAuxiliar WHERE Artigo.Artigo = ArtigoMoeda.Artigo AND Artigo.Artigo = TDU_ArtigoAuxiliar.CDU_codArtigo ORDER BY TDU_ArtigoAuxiliar.CDU_Visitas, ArtigoMoeda.PVP1 DESC, Artigo.Artigo";
 
                 objList = PriEngine.Engine.Consulta(query);
 

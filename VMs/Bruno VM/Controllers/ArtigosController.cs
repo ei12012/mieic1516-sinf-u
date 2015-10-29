@@ -17,7 +17,6 @@ namespace FirstREST.Controllers
         public IEnumerable<Lib_Primavera.Model.Artigo> Get()
         {
             return Lib_Primavera.Integration.IntegracaoArtigo.ListaArtigos();
-
         }
 
         // GET: /api/artigos/A0001   

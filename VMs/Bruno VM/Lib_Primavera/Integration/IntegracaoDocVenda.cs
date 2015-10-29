@@ -33,7 +33,7 @@ namespace FirstREST.Lib_Primavera.Integration
                     //myEnc.set_DataDoc(dv.Data);
                     myEnc.set_Entidade(dv.Entidade);
                     myEnc.set_Serie(dv.Serie);
-                    myEnc.set_Tipodoc("ECL");
+                    myEnc.set_Tipodoc(dv.tipoDoc);
                     myEnc.set_TipoEntidade("C");
                     // Linhas do documento para a lista de linhas
                     lstlindv = dv.LinhasDoc;
@@ -71,7 +71,7 @@ namespace FirstREST.Lib_Primavera.Integration
             }
         }
 
-        public static List<Model.DocVenda> Encomendas_List()
+        public static List<Model.DocVenda> Encomendas_List(string tipoDoc)
         {
 
             StdBELista objListCab;
@@ -84,7 +84,7 @@ namespace FirstREST.Lib_Primavera.Integration
 
             if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
             {
-                objListCab = PriEngine.Engine.Consulta("SELECT id, Entidade, Data, NumDoc, TotalMerc, Serie From CabecDoc where TipoDoc='ECL'");
+                objListCab = PriEngine.Engine.Consulta("SELECT id, Entidade, Data, NumDoc, TotalMerc, Serie From CabecDoc where TipoDoc='" + tipoDoc + "'");
                 while (!objListCab.NoFim())
                 {
                     dv = new Model.DocVenda();
@@ -122,7 +122,7 @@ namespace FirstREST.Lib_Primavera.Integration
             return listdv;
         }
 
-        public static Model.DocVenda Encomenda_Get(string numdoc)
+        public static Model.DocVenda Encomenda_Get(string numdoc, string tipoDoc)
         {
 
 
@@ -136,7 +136,7 @@ namespace FirstREST.Lib_Primavera.Integration
             {
 
 
-                string st = "SELECT id, Entidade, Data, NumDoc, TotalMerc, Serie From CabecDoc where TipoDoc='ECL' and NumDoc='" + numdoc + "'";
+                string st = "SELECT id, Entidade, Data, NumDoc, TotalMerc, Serie From CabecDoc where TipoDoc='" + tipoDoc + "' and NumDoc='" + numdoc + "'";
                 objListCab = PriEngine.Engine.Consulta(st);
                 dv = new Model.DocVenda();
                 dv.id = objListCab.Valor("id");
