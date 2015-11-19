@@ -17,42 +17,25 @@ include_once($BASE_DIR . "pages/template/begin.php");
 ?>
 
 <div class="row">
-   <!-- -->
-   <div class="col-sm-4">
-      <div class="embed-responsive embed-responsive-16by9">
-         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/dc5HY3KEqug?autoplay=0"></iframe>
-      </div>
+   <div class="col-sm-7">
+      <h1>Rede de venda de Videojogos online</h1>
+   </div>
+   <div class="col-sm-5">
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            Jogos + Visitados
+         </div>
 
-      <p></p>
-
-      <div class="embed-responsive embed-responsive-16by9">
-         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/VjZ5tgjPVfU?autoplay=0"></iframe>
+         <ul class="list-group">
+            <li class="list-group-item">
+               <a href="#">Grand Theft Auto VI (PS4)</a>
+            </li>
+            <li class="list-group-item">
+               <a href="#">Pro Evolution Soccer 2016 (PS3)</a>
+            </li>
+         </ul>
       </div>
    </div>
-   <div class="col-sm-4">
-      <div class="embed-responsive embed-responsive-16by9">
-         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vCp5JLnd1Eo?autoplay=0"></iframe>
-      </div>
-
-      <p></p>
-
-      <div class="embed-responsive embed-responsive-16by9">
-         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/k2GMPVXLGbk?autoplay=0"></iframe>
-      </div>
-   </div>
-
-   <div class="col-sm-4">
-      <div class="embed-responsive embed-responsive-16by9">
-         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/AFlL2pW6lY8?autoplay=0"></iframe>
-      </div>
-
-      <p></p>
-
-      <div class="embed-responsive embed-responsive-16by9">
-         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/MmB9b5njVbA?autoplay=0"></iframe>
-      </div>
-   </div>
-
 </div>
 
 <?php
