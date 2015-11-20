@@ -1,4 +1,4 @@
-<nav role="navigation" class="navbar navbar-default  navbar-static-top">
+<nav role="navigation" class="navbar navbar-custom navbar-static-top">
    <div class="container container-fluid">
       <div class="navbar-header">
          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
