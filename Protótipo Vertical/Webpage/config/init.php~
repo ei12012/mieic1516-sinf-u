@@ -18,6 +18,9 @@
 	$BASE_DIR_DB = '/usr/users2/mieic2012/ei12012/public_html/'  . $MAIN_DIR . 'Database/';
 	$BASE_URL = 'http://gnomo.fe.up.pt/~ei12012/' . $MAIN_DIR . 'Webpage/';
 	
+	$adminLogin = 'admin';
+	$adminPassword = 'admin';
+	
 	// ERROR LOG
 	ini_set("log_errors", 1);
 	ini_set("error_log", $BASE_DIR . "php-error.log");

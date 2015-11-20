@@ -11,6 +11,10 @@
    $password = $_GET["password"];
    $pass = sha1($_GET["password"]);
 
+	imprimir($email);
+	imprimir($adminLogin);
+	die();
+
    if ($email == $adminLogin)
    {
       $passAdmin = sha1($adminPassword);
