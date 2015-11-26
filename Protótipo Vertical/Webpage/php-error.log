@@ -144,3 +144,8 @@
 [09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
 [09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 61
 [10-Oct-2015 00:27:41 Europe/Lisbon] PHP Fatal error:  Call to undefined function actualizarCliente() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\action\editarDados.php on line 30
+[26-Nov-2015 22:01:32 Europe/Lisbon] PHP Fatal error:  Call to undefined function obterEstudantes() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\editar_jogo.php on line 19
+[26-Nov-2015 23:28:12 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33
+[26-Nov-2015 23:29:00 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33
+[26-Nov-2015 23:33:01 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33
+[26-Nov-2015 23:33:32 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33

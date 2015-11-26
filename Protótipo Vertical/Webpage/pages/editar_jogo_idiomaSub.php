@@ -7,7 +7,7 @@ $nome_pagina[1] = $_SERVER["REQUEST_URI"];
 include_once("../config/init.php");
 
 // ACESSO A BASE DE DADOS
-include_once($BASE_DIR . "database/jogos.php");
+include_once('../database/jogos.php');
 
 // TRATAMENTO DE INFORMACAO
 if (isset($_GET['id']))
@@ -65,17 +65,17 @@ include_once($BASE_DIR . "pages/template/begin.php");
 				</a>
 			</li>
 			<li>
-				<a href="<?php echo $BASE_URL;?>pages/editar_jogo_generos.php?id=<?php echo $id;?>">
+				<a href="<?php echo $BASE_URL;?>pages/editar_jogo_info.php?id=<?php echo $id;?>">
 					Editar Generos
 				</a>
 			</li>
 			<li>
-				<a href="<?php echo $BASE_URL;?>pages/editar_jogo_idiomaVoz.php?id=<?php echo $id;?>">
+				<a href="<?php echo $BASE_URL;?>pages/editar_jogo_info.php?id=<?php echo $id;?>">
 					Editar Idiomas Voz
 				</a>
 			</li>
 			<li>
-				<a href="<?php echo $BASE_URL;?>pages/editar_jogo_idiomaSub.php?id=<?php echo $id;?>">
+				<a href="<?php echo $BASE_URL;?>pages/editar_jogo_info.php?id=<?php echo $id;?>">
 					Editar Idiomas Subtitulo
 				</a>
 			</li>

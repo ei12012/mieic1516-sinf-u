@@ -19,6 +19,30 @@
       return (executarSQL($query));
    }
 
+   function obterJogosMaisVisitados()
+   {
+      $query = "
+         SELECT *
+         FROM Jogo
+         ORDER BY visitas DESC
+         LIMIT 5
+      ";
+
+      return (executarSQL($query));
+   }
+
+   function obterJogosMaisRecentes()
+   {
+      $query = "
+         SELECT *
+         FROM Jogo
+         ORDER BY ano DESC
+         LIMIT 5
+      ";
+
+      return (executarSQL($query));
+   }
+
    function obterJogosNome($arg)
    {
       $query = "

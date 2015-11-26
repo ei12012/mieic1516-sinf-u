@@ -64,7 +64,7 @@ include_once($BASE_DIR . "pages/template/begin.php");
                      <?php
                      foreach($carrinho as $compra)
                      {
-                        $linkComprar = $BASE_URL . "action/comprar.php?idJogo=" . $compra["idJogo"] . "&idPlataforma=" . $compra["idPlataforma"];
+                        $linkComprar = $BASE_URL . "pages/comprar.php?idJogo=" . $compra["idJogo"] . "&idPlataforma=" . $compra["idPlataforma"];
                         $linkRemover = $BASE_URL . "action/remover.php?idJogo=" . $compra["idJogo"] . "&idPlataforma=" . $compra["idPlataforma"];
                         ?>
                         <tr>

@@ -8,5 +8,5 @@
 
    $estado = confirmarCompra($idJogo,$idPlataforma,$nifCliente);
 
-   voltarAnterior();
+   header("Location: " . $BASE_URL . "pages/carrinho.php");
 ?>
