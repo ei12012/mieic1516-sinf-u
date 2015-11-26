@@ -1,7 +1,9 @@
 <?php
 	try
 	{
-		$text = "sqlite:/Users/Miguel Moreira/Documents/Webpages/ProjectoSINF/Database/dados.db";
+		//$text = "sqlite:/Users/Miguel Moreira/Documents/Webpages/ProjectoSINF/Database/dados.db";
+		$text = "sqlite:" . $BASE_DIR_DB . "/dados.db";
+		
 		$basedados = new PDO($text);
 		if ($basedados === false)
 		{

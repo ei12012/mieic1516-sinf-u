@@ -11,9 +11,9 @@
    $password = $_GET["password"];
    $pass = sha1($_GET["password"]);
 
-   if ($email == "admin@nomeLoja.com")
+   if ($email == $adminLogin)
    {
-      $passAdmin = sha1("admin");
+      $passAdmin = sha1($adminPassword);
 
       if ($passAdmin == $pass) //palavra-chave correcta
       {
