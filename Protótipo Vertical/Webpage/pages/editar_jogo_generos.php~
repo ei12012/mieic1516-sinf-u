@@ -127,7 +127,7 @@ include_once($BASE_DIR . "pages/template/begin.php");
 		var sel = $(pesquisa);
 		console.log(sel);
 		sel.remove();
-		//num--;	
+		num--;	
 	}
 </script>
 

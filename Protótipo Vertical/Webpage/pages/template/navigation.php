@@ -109,7 +109,7 @@
             </div>
 
             <div class="modal-body">
-               <p>Última actualização: 11 de Outubro de 2015</p>
+               <p>Última actualização: 27 de Novembro de 2015</p>
                <p>Telefone: +351 22 508 14 00</p>
                <p>Correio Eletrónico: <?php echo $adminLogin; ?></p>
             </div>

@@ -38,6 +38,7 @@ include_once($BASE_DIR . "pages/template/begin.php");
 								<li class="list-group-item">
 									<a href="<?php echo $BASE_URL;?>pages/jogo.php?id=<?php echo $jogo['id'];?>"><?php echo $jogo["nome"]; ?></a>
 									<p><?php echo $jogo["visitas"]; ?> Visitas</p>
+									<p><?php echo $jogo["preco"]; ?> Preço</p>
 								</li>
 							<?php
 						}

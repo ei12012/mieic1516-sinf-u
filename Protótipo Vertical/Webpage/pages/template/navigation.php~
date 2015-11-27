@@ -1,4 +1,4 @@
-<nav role="navigation" class="navbar navbar-custom navbar-static-top">
+<nav role="navigation" class="navbar navbar-default navbar-static-top">
    <div class="container container-fluid">
       <div class="navbar-header">
          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -111,7 +111,7 @@
             <div class="modal-body">
                <p>Última actualização: 11 de Outubro de 2015</p>
                <p>Telefone: +351 22 508 14 00</p>
-               <p>Correio Eletrónico: admin@rvvo.com</p>
+               <p>Correio Eletrónico: <?php echo $adminLogin; ?></p>
             </div>
          </div>
       </div>
