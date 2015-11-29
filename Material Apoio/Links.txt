@@ -2,3 +2,6 @@ https://github.com/vascozzz/SINFONE
 
 https://github.com/magano227/SINFProject/tree/master/src
 https://github.com/Ladeiras/sinf/tree/master/BelaFlor
+
+Instalar na VM para o Google Chrome, permitindo utilizar qualquer Header de GET/POST/PUT
+https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi

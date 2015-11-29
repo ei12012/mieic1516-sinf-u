@@ -1,0 +1,185 @@
+[09-Oct-2015 21:07:11 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 38
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:07:20 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:07 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 40
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 45
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 50
+[09-Oct-2015 21:09:25 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 46
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 51
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 56
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 46
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 51
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 56
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 46
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 51
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 56
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 46
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 51
+[09-Oct-2015 21:09:36 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 56
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:00 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomejogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeplataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomejogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeplataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomejogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeplataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 41
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomejogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 47
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeplataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 53
+[09-Oct-2015 21:11:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 59
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:11:47 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 42
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 48
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 54
+[09-Oct-2015 21:13:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 60
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 43
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 49
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 61
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 43
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 49
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 61
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 43
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 49
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 61
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'comprado' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 43
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomeJogo' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 49
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'nomePlataforma' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 55
+[09-Oct-2015 21:13:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'preco' in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\carrinho.php on line 61
+[10-Oct-2015 00:27:41 Europe/Lisbon] PHP Fatal error:  Call to undefined function actualizarCliente() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\action\editarDados.php on line 30
+[26-Nov-2015 22:01:32 Europe/Lisbon] PHP Fatal error:  Call to undefined function obterEstudantes() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\pages\editar_jogo.php on line 19
+[26-Nov-2015 23:28:12 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33
+[26-Nov-2015 23:29:00 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33
+[26-Nov-2015 23:33:01 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33
+[26-Nov-2015 23:33:32 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Miguel Moreira\Documents\Webpages\ProjectoSINF\Webpage\index.php on line 33
+[29-Nov-2015 14:39:40 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogos.php on line 41
+[29-Nov-2015 14:47:46 Europe/Lisbon] PHP Fatal error:  Cannot access empty property in C:\Users\user\Documents\SINF\Webpage\pages\jogos.php on line 22
+[29-Nov-2015 14:48:05 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogos.php on line 22
+[29-Nov-2015 15:34:12 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 216
+[29-Nov-2015 15:34:12 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 247
+[29-Nov-2015 15:34:55 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 213
+[29-Nov-2015 15:34:55 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 244
+[29-Nov-2015 15:36:16 Europe/Lisbon] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\user\Documents\SINF\Webpage\database\primavera\artigos.php on line 32
+[29-Nov-2015 15:36:54 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 75
+[29-Nov-2015 15:38:11 Europe/Lisbon] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\user\Documents\SINF\Webpage\database\primavera\artigos.php on line 32
+[29-Nov-2015 15:39:44 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 218
+[29-Nov-2015 15:39:44 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 249
+[29-Nov-2015 15:40:56 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 218
+[29-Nov-2015 15:40:56 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 249
+[29-Nov-2015 16:01:28 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\jogo.php on line 243
+[29-Nov-2015 17:12:34 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\template\navigation.php on line 58
+[29-Nov-2015 17:14:00 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\carrinho.php on line 13
+[29-Nov-2015 17:14:48 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\conta.php on line 44
+[29-Nov-2015 17:17:11 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\conta.php on line 69
+[29-Nov-2015 17:17:42 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\conta.php on line 69
+[29-Nov-2015 17:18:10 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\editarDados.php on line 51
+[29-Nov-2015 17:19:24 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\SINF\Webpage\pages\editarDados.php on line 51
+[29-Nov-2015 17:41:30 Europe/Lisbon] PHP Fatal error:  Call to undefined function editarCliente() in C:\Users\user\Documents\SINF\Webpage\action\editarDados.php on line 44
+[29-Nov-2015 18:26:39 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/acesso/pass): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Users\user\Documents\SINF\Webpage\database\primavera\clientes.php on line 52
+[29-Nov-2015 18:27:10 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/acesso/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Users\user\Documents\SINF\Webpage\database\primavera\clientes.php on line 52
+[29-Nov-2015 18:38:58 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/acesso/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Users\user\Documents\SINF\Webpage\database\primavera\clientes.php on line 54
+[29-Nov-2015 19:04:22 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/acesso/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Users\user\Documents\SINF\Webpage\database\primavera\clientes.php on line 54
+[29-Nov-2015 19:10:00 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/acesso/): failed to open stream: HTTP request failed!  in C:\Users\user\Documents\SINF\Webpage\database\primavera\clientes.php on line 53
+[29-Nov-2015 19:23:47 Europe/Lisbon] PHP Warning:  curl_setopt() expects parameter 2 to be long, string given in C:\Users\user\Documents\SINF\Webpage\database\primavera\clientes.php on line 45
+[29-Nov-2015 19:34:49 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/acesso/): failed to open stream: HTTP request failed!  in C:\Users\user\Documents\SINF\Webpage\database\primavera\clientes.php on line 72
