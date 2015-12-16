@@ -10,34 +10,6 @@ GO
 SET ANSI_PADDING ON
 GO
 
-CREATE TABLE [dbo].[TDU_ClienteAuxiliar](
-	[CDU_codCliente] [varchar](50) NOT NULL,
-	[CDU_Email] [varchar](50) NOT NULL,
-	[CDU_Sexo] [char](1) NOT NULL,
-	[CDU_Password] [varchar](70) NOT NULL,
- CONSTRAINT [PK_TDU_ClienteAuxiliar] PRIMARY KEY CLUSTERED 
-(
-	[CDU_codCliente] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
-
-GO
-
-CREATE TABLE [dbo].[TDU_ArtigoAuxiliar](
-	[CDU_codArtigo] [varchar](50) NOT NULL,
-	[CDU_Empresa] [varchar](50) NULL,
-	[CDU_Idade] [int] NULL,
-	[CDU_Ano] [int] NULL,
-	[CDU_Visitas] [int] NULL,
-	[CDU_Oculto] [bit] NULL,
- CONSTRAINT [PK_TDU_Artigo] PRIMARY KEY CLUSTERED 
-(
-	[CDU_codArtigo] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
-
-GO
-
 CREATE TABLE [dbo].[TDU_Genero](
 	[CDU_ID] [int] NOT NULL,
 	[CDU_Nome] [varchar](50) NOT NULL,
