@@ -17,11 +17,12 @@ CREATE PROCEDURE PDU_RegistarCliente
 @sexo char,
 @password varchar(70)
 AS
-	INSERT INTO Clientes(Cliente, Nome, NomeFiscal, Fac_Tel, Fac_Mor, NumContrib, Moeda)
-	VALUES(@codigo, @nome, @nome, @contacto, @morada,@contribuinte, 'EUR');
-
-	INSERT INTO TDU_ClienteAuxiliar(CDU_codCliente, CDU_Email, CDU_Sexo, CDU_Password)
-	VALUES(@codigo, @email, @sexo, @password);
+	INSERT INTO Clientes(Cliente, Nome, NomeFiscal, Fac_Tel, Fac_Mor, NumContrib, Moeda,
+	Desconto, TipoPrec, TipoCred, LimiteCred, TotalDeb, ModoPag, CondPag, TipoCli, PessoaSingular, SegmentoTerceiro, IntegraCessaoFactoring,
+	CDU_Email, CDU_Sexo, CDU_Password)
+	VALUES(@codigo, @nome, @nome, @contacto, @morada,@contribuinte, 'EUR',
+	0, 0, 1, 0, 99.99, 'MB', 1, 0, 1, '001', 1,
+	@email, @sexo, @password);
 GO
 
 CREATE PROCEDURE PDU_AlterarCliente
