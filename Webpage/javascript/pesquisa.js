@@ -10,21 +10,32 @@ $("#btnPesquisar").click(function() {
 
 function pesquisa(arg, campo)
 {
+	
+      
    if (campo == "Plataforma")
    {
-      pesquisaPlataforma(arg);
+		var fx2 = $.getJSON( "http://localhost:49822/api/pesquisa?tipo=plataforma&arg=" + arg, function() { })
+				.done(function(data_2) {
+				   mostrarDados(data_2);
+				});
    }
    else if (campo == "Jogo")
    {
-      pesquisaNome(arg);
+      var fx2 = $.getJSON( "http://localhost:49822/api/pesquisa?tipo=nome&arg=" + arg, function() { })
+				.done(function(data_2) {
+				   mostrarDados(data_2);
+				});
    }
    else if (campo == "Empresa")
    {
-      pesquisaEmpresa(arg);
+      var fx2 = $.getJSON( "http://localhost:49822/api/pesquisa?tipo=empresa&arg=" + arg, function() { })
+				.done(function(data_2) {
+				   mostrarDados(data_2);
+				});
    }
 }
 
-function mostrarDados(link, data)
+function mostrarDados(data)
 {
    $("#pesquisar").empty();
    if (data.length != 0)
@@ -35,7 +46,7 @@ function mostrarDados(link, data)
       $.each(data, function(i, item) {
          jogo = data[i];
 
-         $(".resultadosPesquisa").append("<tr><td><a href=' " + link + "pages/jogo.php?id=" + jogo.id + "'>" + jogo.nome + "</a></td><td>" + jogo.empresa + "</td><td>" + jogo.ano + "</td><td>+" + jogo.idade + "</td></tr>");
+         $(".resultadosPesquisa").append("<tr><td><a href=' " + BASE_URL + "pages/jogo.php?id=" + jogo.CodArtigo + "'>" + jogo.Descricao + "</a></td><td>" + jogo.Empresa + "</td><td>" + jogo.Ano + "</td><td>+" + jogo.Idade + "</td></tr>");
 
       });
 
@@ -57,24 +68,23 @@ function pesquisaEmpresa(arg)
 
       var fx2 = $.getJSON( url + "api/pesquisarEmpresa.php?nomeEmpresa=" + arg, function() { })
       .done(function(data_2) {
-         mostrarDados(url, data_2);
+         mostrarDados(data_2.data);
       });
    });
 }
 
 function pesquisaPlataforma(arg)
 {
-   var url = "";
+	
+      
+   /*var url = "";
    var fx1 = $.getJSON( "../api/init.php", function() { })
    .done(function(data) {
       url = data[1];
-      var info;
+      var info; //url + "api/pesquisarPlataforma.php?nomePlataforma=" + arg
 
-      var fx2 = $.getJSON( url + "api/pesquisarPlataforma.php?nomePlataforma=" + arg, function() { })
-      .done(function(data_2) {
-         mostrarDados(url, data_2);
-      });
-   });
+      
+   });*/
 }
 
 function pesquisaNome(arg)
@@ -89,7 +99,7 @@ function pesquisaNome(arg)
 
       var fx2 = $.getJSON( url + "api/pesquisarNome.php?nomeJogo=" + frase, function() { })
       .done(function(data_2) {
-         mostrarDados(url, data_2);
+         mostrarDados(data_2.data);
       });
    });
 }

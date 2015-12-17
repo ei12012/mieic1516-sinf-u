@@ -28,6 +28,7 @@
 								echo $arg->{'Descricao'};
 							echo "</a>";			
 						echo "</h4>";
+
 						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "</p>";	
 						
 						if (isset($_SESSION["login"]) && $_SESSION["login"]["tipo"] == 0)
@@ -36,6 +37,9 @@
 							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>";
 							echo "</a>";
 						}
+
+						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "€</p>";				
+
 					echo "</li>";	
 				echo "</ul>";	
 			echo "</div>";

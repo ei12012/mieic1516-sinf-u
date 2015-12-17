@@ -95,7 +95,7 @@ namespace FirstREST.Lib_Primavera.Integration
 
             if (PriEngine.InitializeCompany(FirstREST.Properties.Settings.Default.Company.Trim(), FirstREST.Properties.Settings.Default.User.Trim(), FirstREST.Properties.Settings.Default.Password.Trim()) == true)
             {
-                string query = "SELECT Artigo.Artigo as CodArtigo, Artigo.Descricao, Artigo.STKActual as Stock, ArtigoMoeda.Moeda as Moeda, ArtigoMoeda.PVP1 as Preco, CDU_Empresa, CDU_Ano, CDU_Idade, CDU_Visitas, CDU_Oculto FROM Artigo, ArtigoMoeda WHERE Artigo.Artigo = ArtigoMoeda.Artigo AND AND Artigo.Descricao LIKE '%(%" + arg + "%)'";
+                string query = "SELECT Artigo.Artigo as CodArtigo, Artigo.Descricao, Artigo.STKActual as Stock, ArtigoMoeda.Moeda as Moeda, ArtigoMoeda.PVP1 as Preco, CDU_Empresa, CDU_Ano, CDU_Idade, CDU_Visitas, CDU_Oculto FROM Artigo, ArtigoMoeda WHERE Artigo.Artigo = ArtigoMoeda.Artigo AND Artigo.Descricao LIKE '%(%" + arg + "%)'";
 
                 objList = PriEngine.Engine.Consulta(query);
                 while (!objList.NoFim())
