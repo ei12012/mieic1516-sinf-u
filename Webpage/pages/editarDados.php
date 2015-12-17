@@ -43,7 +43,8 @@ include_once($BASE_DIR . "pages/template/begin.php");
 ?>
 
 <h1>Editar Dados</h1>
-<form role="form" action="<?php echo $BASE_URL;?>action/editarDados.php" method="post">
+<!-- action="<?php echo $BASE_URL;?>action/editarDados.php" -->
+<form role="form" id="formActualizar" method="post">
    <div class="row">
       <div class="col-sm-6">
          <div class="form-group">
@@ -55,12 +56,12 @@ include_once($BASE_DIR . "pages/template/begin.php");
             <label for="sexo">Sexo</label>
             <div class="radio">
                <label class="radio-inline">
-                  <input value="M" type="radio" name="sexo" <?php if($cliente->{'sexo'} == 'M')  echo "checked"; ?>>
+                  <input value="M" type="radio" id="sexo" name="sexo" <?php if($cliente->{'sexo'} == 'M')  echo "checked"; ?>>
                      Masculino
                   </input>
                </label>
                <label class="radio-inline">
-                  <input value="F" type="radio" name="sexo" <?php if($cliente->{'sexo'} == 'F') echo "checked"; ?>>
+                  <input value="F" type="radio" id="sexo" name="sexo" <?php if($cliente->{'sexo'} == 'F') echo "checked"; ?>>
                      Feminino
                   </input>
                </label>
@@ -96,13 +97,14 @@ include_once($BASE_DIR . "pages/template/begin.php");
 
          <div class="row">
             <div class="col-sm-4">
-               <button type="submit" class="btn btn-success btn-block">Guardar</button>
+            	<input type="submit" value="Actualizar" id="actualizar" class="btn btn-success btn-block">
             </div>
          </div>
       </div>
    </div>
 </form>
 
+<script src="<?php echo $BASE_URL;?>javascript/editarDados.js"></script>
 <?php
 include_once($BASE_DIR . "pages/template/end.php");
 ?>

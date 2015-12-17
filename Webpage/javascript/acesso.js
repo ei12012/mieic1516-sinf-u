@@ -51,7 +51,7 @@ $("#formEntrar").submit(function(){
 $("#formRegistar").submit(function(){
 	var snif = $("#formRegistar #nif").val();
 	var snome = $("#formRegistar #nome").val();
-	var ssexo = $("#formRegistar input[type='radio']:checked")[0].name;
+	var ssexo = $("#formRegistar input[type='radio']:checked")[0].value;
 	var smorada = $("#formRegistar #morada").val();
 	var stelefone = $("#formRegistar #contacto").val();
 	

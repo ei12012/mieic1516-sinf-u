@@ -299,57 +299,15 @@ namespace FirstREST.Lib_Primavera.Integration
                     }
                     else
                     {
-                        /* Artigo
-                        GcpBEArtigo obj = new GcpBEArtigo();
-                        obj = PriEngine.Engine.Comercial.Artigos.Edita(registo.CodArtigo);
-                        obj.set_EmModoEdicao(true);
-
-
-
-                        //obj.set
-
-                        //obj.set
-
-                        PriEngine.Engine.Comercial.Artigos.Actualiza(obj);
-
-                        /* ArtigoMoeda
-                        GcpBEArtigoMoeda obj2 = new GcpBEArtigoMoeda();
-                        obj2 = PriEngine.Engine.Comercial.ArtigosPrecos.Edita(registo.CodArtigo, registo.Moeda, "UN");
-
-                        obj2.set_EmModoEdicao(true);
-
-                        obj2.set_PVP1(registo.Preco);
-
-                        PriEngine.Engine.Comercial.ArtigosPrecos.Actualiza(obj2);
-
-                        /* TDU_ArtigoAuxiliar
                         StdBECamposChave chave = new StdBECamposChave();
                         StdBECampos campos = new StdBECampos();
                         StdBECampo cmp1 = new StdBECampo();
-                        StdBECampo cmp2 = new StdBECampo();
-                        StdBECampo cmp3 = new StdBECampo();
-                        StdBECampo cmp4 = new StdBECampo();
 
-                        chave.AddCampoChave("CDU_codArtigo", registo.CodArtigo);
-
-                        cmp1.Nome = "CDU_Ano";
-                        cmp1.Valor = registo.Ano;
-                        cmp2.Nome = "CDU_Idade";
-                        cmp2.Valor = registo.Idade;
-                        cmp3.Nome = "CDU_Empresa";
-                        cmp3.Valor = registo.Empresa;
-                        cmp4.Nome = "CDU_Oculto";
-                        cmp4.Valor = (registo.Oculto ? 1 : 0);
-
+                        cmp1.Nome = "CDU_Visitas";
+                        cmp1.Valor = registo.Visitas + 1;
                         campos.Insere(cmp1);
-                        campos.Insere(cmp2);
-                        campos.Insere(cmp3);
-                        campos.Insere(cmp4);
 
-                        PriEngine.Engine.
-
-                        PriEngine.Engine.TabelasUtilizador.ActualizaValorAtributos("TDU_ArtigoAuxiliar", chave, campos);
-                        */
+                        PriEngine.Engine.Comercial.Artigos.ActualizaValorAtributos(registo.CodArtigo, campos);
                         erro.Erro = 0;
                         erro.Descricao = "Sucesso";
                         return erro;

@@ -28,7 +28,7 @@
 								echo $arg->{'Descricao'};
 							echo "</a>";			
 						echo "</h4>";
-						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "</p>";				
+						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "€</p>";				
 					echo "</li>";	
 				echo "</ul>";	
 			echo "</div>";

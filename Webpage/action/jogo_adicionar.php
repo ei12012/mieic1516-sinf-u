@@ -5,10 +5,12 @@
    //var_dump($_POST); novalinha();
    //var_dump($_GET);
 
-   if(count($_GET) == 0)
+   if(count($_POST) == 0)
       header("Location: " . $BASE_URL);
-
-   $idJogo = $_GET["id"];
+	var_dump($_POST);
+	die();
+	
+   $idJogo = $_POST["jogo"];
    $nifCliente =  $_SESSION["login"]["dados"]->{"NomeCliente"};
 
    $resultado = inserirCarrinho($idJogo, $idPlataforma,$nifCliente);
