@@ -211,3 +211,7 @@
  in C:\xampp\htdocs\Webpage\database\primavera\clientes.php on line 11
 [15-Dec-2015 20:02:00 Europe/Lisbon] PHP Warning:  file_get_contents(http://...@fe.up.pt&amp;password=pass): failed to open stream: No connection could be made because the target machine actively refused it.
  in C:\xampp\htdocs\Webpage\database\primavera\clientes.php on line 11
+[17-Dec-2015 02:05:15 Europe/Lisbon] PHP Fatal error:  Call to undefined function obterJogosMaisVisitados() in C:\xampp\htdocs\Webpage\index.php on line 14
+[17-Dec-2015 02:06:31 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\xampp\htdocs\Webpage\index.php on line 96
+[17-Dec-2015 02:08:45 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\xampp\htdocs\Webpage\index.php on line 111
+[17-Dec-2015 02:09:17 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\xampp\htdocs\Webpage\index.php on line 111
