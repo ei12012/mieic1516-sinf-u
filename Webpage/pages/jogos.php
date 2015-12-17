@@ -34,11 +34,15 @@
 						if (isset($_SESSION["login"]) && $_SESSION["login"]["tipo"] == 0)
 						{
 							echo "<a onclick='adicionarJogo(".json_encode($_SESSION[login][dados]->{"CodCliente"}).",\"".$arg->{'CodArtigo'}."\")' >";
-							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>";
+							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span> Adicionar ao Carrinho";
+							echo "</a>";
+						}else{
+							echo "<a  href='acesso.php'>";
+							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>Adicionar ao carrinho";
 							echo "</a>";
 						}
 
-						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "€</p>";				
+						
 
 					echo "</li>";	
 				echo "</ul>";	

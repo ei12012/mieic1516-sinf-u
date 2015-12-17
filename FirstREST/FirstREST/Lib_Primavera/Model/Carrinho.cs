@@ -11,5 +11,6 @@ namespace FirstREST.Lib_Primavera.Model
         public string artigo { get; set; }
         public string adicionado { get; set; }
         public string comprado { get; set; }
+        public int remover { get; set; }
     }
 }

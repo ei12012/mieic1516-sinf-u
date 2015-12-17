@@ -13,14 +13,16 @@ console.log(portaPrimavera);
   }).done(function(data){
     if(data=="Sucesso"){
       document.location.href="./jogos.php";
+      $("#addGame").css("visibility","visible");
     }
   });
 }
 
-function removerJogo(cliente,artigo) {
-  var link = "http://localhost:" + portaPrimavera + "/api/carrinho";          
+function adicionarJogoIndex(cliente,artigo) {
+  var link = "http://localhost:" + portaPrimavera + "/api/carrinho";
+                     
   $.ajax({
-    type: 'DELETE',
+    type: "POST",
     url: link,
     dataType: "json",
     data: {
@@ -28,13 +30,37 @@ function removerJogo(cliente,artigo) {
       'artigo':artigo
     }
   }).done(function(data){
-    console.log(data);
-  }).fail(function(data){
-    console.log(data);
+    if(data=="Sucesso"){
+      document.location.href="index.php";
+      $("#addGame").css("visibility","visible");
+    }
+  });
+}
+
+function removerJogo(cliente,artigo) {
+  var link = "http://localhost:" + portaPrimavera + "/api/carrinho";
+                     
+  $.ajax({
+    type: "POST",
+    url: link,
+    dataType: "json",
+    data: {
+      'cliente':cliente,//session.login.dados.CodCliente,
+      'artigo':artigo,
+      'remover':1,
+    }
+  }).done(function(data){
+    if(data=="Sucesso"){
+      document.location.href="";
+    }
   });
 }
 
 function comprarArtigos(listaArtigos){
+  if(listaArtigos.length>0){
+  $("#msgCompra").css("visibility","visible");
+  $("#btnCompra").css("visibility","hidden");
+
   var sendData={};
   sendData["Entidade"]=listaArtigos[0].cliente;
   sendData["LinhasDoc"]=[];
@@ -52,5 +78,15 @@ function comprarArtigos(listaArtigos){
     data: sendData
   }).done(function(data){
     console.log(data);
+
+    for(var i=0;i<listaArtigos.length;i++){
+        removerJogo(listaArtigos[i].cliente,listaArtigos[i].artigo);
+    }
+
+    $("#btnCompra").css("visibility","visible");
+    $("#msgCompra").css("visibility","hidden");
+    $("#msgCompraEft").css("visibility","visible");
+
   });
+}
 }

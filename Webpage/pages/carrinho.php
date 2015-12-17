@@ -93,7 +93,9 @@ include_once($BASE_DIR . "pages/template/begin.php");
 
                            <td>
                               <a onclick='removerJogo(<?php echo json_encode($_SESSION[login][dados]->{'CodCliente'})?>,<?php echo json_encode($compra->{"artigo"})?>)'>
-                                 Remover
+                                 Remover <?php
+                              echo $compra->{"artigo"};
+                              ?>
                               </a>
                            </td>
                         </tr>
@@ -103,7 +105,10 @@ include_once($BASE_DIR . "pages/template/begin.php");
                   </tbody>
                </table>
 
-               <button onclick='comprarArtigos(<?php echo json_encode($compras) ?>)'>Comprar</button>
+
+               <span id="msgCompra" style="visibility:hidden;color:red;font-size:2vw;">A comunicar a compra. Por favor, espere...</span></br>
+               <button id="btnCompra" onclick='comprarArtigos(<?php echo json_encode($compras) ?>)'>Comprar</button></br>
+               <span id="msgCompraEft" style="visibility:hidden;color:red;font-size:2vw;">Compra Efetuada</span></br>
                <?php
             }
             else

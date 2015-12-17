@@ -29,6 +29,12 @@
                </a>
             </li>
 
+            <li style="visibility:hidden;" id="addGame">
+               <a href="#">
+                  <span style="color:red;font-weight:bold;">Jogo Adicionado ao carrinho</span> 
+               </a>
+            </li>
+
          </ul>
 
          <ul class="nav navbar-nav navbar-right">

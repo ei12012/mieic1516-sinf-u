@@ -1,0 +1,57 @@
+[17-Dec-2015 02:39:23 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/favoritos/): failed to open stream: No connection could be made because the target machine actively refused it.
+ in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\database\primavera\artigos.php on line 12
+[17-Dec-2015 02:39:25 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/inicio/): failed to open stream: No connection could be made because the target machine actively refused it.
+ in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\database\primavera\artigos.php on line 20
+[17-Dec-2015 02:39:27 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/favoritos/): failed to open stream: No connection could be made because the target machine actively refused it.
+ in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\database\primavera\artigos.php on line 12
+[17-Dec-2015 02:39:29 Europe/Lisbon] PHP Warning:  file_get_contents(http://localhost:49822/api/inicio/): failed to open stream: No connection could be made because the target machine actively refused it.
+ in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\database\primavera\artigos.php on line 20
+[17-Dec-2015 03:06:40 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:06:40 Europe/Lisbon] PHP Warning:  array_search() expects parameter 2 to be array, null given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:06:40 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:06:40 Europe/Lisbon] PHP Warning:  array_search() expects parameter 2 to be array, null given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:06:58 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:06:58 Europe/Lisbon] PHP Warning:  array_search() expects parameter 2 to be array, null given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:06:58 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:06:58 Europe/Lisbon] PHP Warning:  array_search() expects parameter 2 to be array, null given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:07:50 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:07:50 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:08:18 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:08:18 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:08:18 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:08:18 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:08:37 Europe/Lisbon] PHP Warning:  Illegal string offset 'dataComprado' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:08:37 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:08:37 Europe/Lisbon] PHP Warning:  Illegal string offset 'dataComprado' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:08:37 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:09:02 Europe/Lisbon] PHP Warning:  Illegal string offset 'dataComprado' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:09:02 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:09:02 Europe/Lisbon] PHP Warning:  Illegal string offset 'dataComprado' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:09:02 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:09:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'dataComprado' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:09:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:09:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'dataComprado' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 24
+[17-Dec-2015 03:09:13 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:09:45 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:09:45 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:04 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:04 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:17 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:41 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:41 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:55 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:10:55 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:11:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:11:05 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:11:16 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:11:16 Europe/Lisbon] PHP Warning:  Illegal string offset 'artigo' in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 25
+[17-Dec-2015 03:12:02 Europe/Lisbon] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 26
+[17-Dec-2015 03:12:22 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, object given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 74
+[17-Dec-2015 03:12:22 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, object given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 74
+[17-Dec-2015 03:12:36 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, object given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 73
+[17-Dec-2015 03:12:36 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, object given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 73
+[17-Dec-2015 03:12:56 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, object given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 76
+[17-Dec-2015 03:12:56 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, object given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 76
+[17-Dec-2015 03:13:59 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, array given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 26
+[17-Dec-2015 03:13:59 Europe/Lisbon] PHP Warning:  json_decode() expects parameter 1 to be string, array given in C:\Users\user\Documents\mieic1516-sinf-u\Webpage\pages\carrinho.php on line 26

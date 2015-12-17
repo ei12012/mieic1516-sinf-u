@@ -50,30 +50,36 @@ namespace FirstREST.Controllers
 
         public HttpResponseMessage Post(Carrinho carrinho)
         {
-            Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
-
-            try
+            if (carrinho.remover==1)
             {
-
-                erro = Lib_Primavera.Integration.IntegracaoCarrinho.InsereArtigoCarrinho(carrinho);
-
-                if (erro.Erro == 0)
-                {
-                    return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
-                }
-                else
-                {
-                    return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
-                }
-
+                return Delete(carrinho);
             }
-
-            catch (Exception exc)
+            else
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
+                Lib_Primavera.Model.RespostaErro erro = new Lib_Primavera.Model.RespostaErro();
 
+                try
+                {
+
+                    erro = Lib_Primavera.Integration.IntegracaoCarrinho.InsereArtigoCarrinho(carrinho);
+
+                    if (erro.Erro == 0)
+                    {
+                        return Request.CreateResponse(HttpStatusCode.OK, erro.Descricao);
+                    }
+                    else
+                    {
+                        return Request.CreateResponse(HttpStatusCode.NotFound, erro.Descricao);
+                    }
+
+                }
+
+                catch (Exception exc)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, erro.Descricao);
+
+                }
             }
-
         }
     }
 }

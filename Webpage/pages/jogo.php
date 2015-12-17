@@ -81,7 +81,13 @@ include_once($BASE_DIR . "pages/template/begin.php");
 					<span class="glyphicon glyphicon-shopping-cart text-danger"></span>
 				</a>
 			<?php
-		}
+		}else{
+         ?>
+            <a href="acesso.php" >
+               <span class="glyphicon glyphicon-shopping-cart text-danger"></span>
+            </a>
+         <?php
+      }
 	?>
 	<?php echo $artigo->{"Descricao"};?> 
 	<small class="text-primary"><?php echo round($artigo->{'Preco'}, 2);?>€</small>

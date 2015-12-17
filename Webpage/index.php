@@ -32,13 +32,24 @@ function apresentar($arg)
 						echo "</a>";			
 					echo "</h4>";
 					echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "€</p>";				
+					if (isset($_SESSION["login"]) && $_SESSION["login"]["tipo"] == 0)
+						{
+
+							echo "<a onclick='adicionarJogoIndex(".json_encode($_SESSION[login][dados]->{"CodCliente"}).",\"".$arg->{'CodArtigo'}."\")' >";
+							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>Adicionar ao carrinho";
+							echo "</a>";
+						}else{
+							echo "<a  href='pages/acesso.php'>";
+							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>Adicionar ao carrinho";
+							echo "</a>";
+						}
 				echo "</li>";	
 			echo "</ul>";	
 		echo "</div>";
 	echo "</div>";	
 }
 ?>
-
+<script src="javascript/adicionarJogo.js"></script>
 <div class="container">
 	<h1>Rede de venda de Videojogos online</h1>
 	<p>Dá-mos as boas-vindas ao nosso website. Passe o seu tempo e encontre o jogo que deseja.</p>
