@@ -1,5 +1,6 @@
 function loginSucesso(data)
 {
+	localStorage.setItem("session",data);
 	console.log(data);
 	$.ajax({
 		url: "acessoSession.php",
@@ -7,6 +8,7 @@ function loginSucesso(data)
 		dataType: 'json',
 		data: {session:JSON.stringify(data)}
 	}).always(function(data){
+
 		if(data){
 			console.log(data);
 			document.location.href="..";

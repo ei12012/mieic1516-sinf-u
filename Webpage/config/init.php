@@ -14,9 +14,9 @@
 	// WINDOWS
 	//$BASE_DIR = '/xampp/htdocs/Webpage/';
 	//$BASE_DIR_DB = '/xampp/htdocs/Database/';
-	$BASE_DIR = $_SERVER['DOCUMENT_ROOT'].'/Webpage/';
-	$BASE_DIR_DB = $_SERVER['DOCUMENT_ROOT'].'/Database/';
-	$BASE_URL = 'http://localhost:3000/Webpage/';
+	$BASE_DIR = $_SERVER['DOCUMENT_ROOT'].'/';
+	$BASE_DIR_DB = $_SERVER['DOCUMENT_ROOT'].'/';
+	$BASE_URL = 'http://localhost:3000/';
 
 	// LINUX / MAC
 	

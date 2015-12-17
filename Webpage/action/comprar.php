@@ -4,7 +4,7 @@
 
    $idJogo = $_GET["idJogo"];
    $idPlataforma = $_GET["idPlataforma"];
-   $nifCliente = $_SESSION["login"]["dados"]->{"NomeCliente"};
+   $nifCliente = $_SESSION["login"]["dados"]->{"NumContribuinte"};
 
    $estado = confirmarCompra($idJogo,$idPlataforma,$nifCliente);
 

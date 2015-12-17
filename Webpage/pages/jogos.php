@@ -11,7 +11,7 @@
 	include_once($BASE_DIR . "database/primavera/artigos.php");
 	
    // TRATAMENTO DE INFORMACAO
-   $jogos = obterJogos();
+   //$jogos = obterJogos();
    $artigos = obterArtigos();
 
    function apresentar($arg)
@@ -28,7 +28,14 @@
 								echo $arg->{'Descricao'};
 							echo "</a>";			
 						echo "</h4>";
-						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "</p>";				
+						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "</p>";	
+						
+						if (isset($_SESSION["login"]) && $_SESSION["login"]["tipo"] == 0)
+						{
+							echo "<a onclick='adicionarJogo(".json_encode($_SESSION[login][dados]->{"CodCliente"}).",\"".$arg->{'CodArtigo'}."\")' >";
+							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>";
+							echo "</a>";
+						}
 					echo "</li>";	
 				echo "</ul>";	
 			echo "</div>";
@@ -47,6 +54,7 @@
     <li><a href="#">Next</a></li>
   </ul>
 -->
+<script src="../javascript/adicionarJogo.js"></script>
 <div class="container">
 	<?php
 		for($index = 0; $index < count($artigos); $index++)

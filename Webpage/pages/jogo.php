@@ -71,14 +71,13 @@ include_once($BASE_DIR . "pages/template/begin.php");
       }
    }
 ?>
-
 <h1>
 	<?php
 		if (isset($_SESSION["login"]) && $_SESSION["login"]["tipo"] == 0)
 		{
 			?>
-			
-				<a href="<?php echo $BASE_URL;?>action/jogo_adicionar.php">
+			   <script src="../javascript/adicionarJogo.js"></script>
+				<a onclick='adicionarJogo(<?php echo json_encode($_SESSION[login][dados]->{'CodCliente'})?>,<?php echo json_encode($id)?>)' >
 					<span class="glyphicon glyphicon-shopping-cart text-danger"></span>
 				</a>
 			<?php

@@ -9,15 +9,16 @@ include_once("../config/init.php");
 // ACESSO A BASE DE DADOS
 include_once($BASE_DIR . "database/jogos.php");
 
+include_once($BASE_DIR . "database/primavera/carrinho.php");
+
 // TRATAMENTO DE INFORMACAO
-$compras = obterCompras($_SESSION["login"]["dados"]->{"NumContribuinte"});
-
-
+$compras = obterCarrinho($_SESSION["login"]["dados"]->{"CodCliente"});
 
 $carrinho = array();
 $historico = array();
 foreach($compras as $compra)
 {
+   $compra= json_encode($compra);
    if ( !isset($compra["dataComprado"]) )
    {
       $carrinho[] = $compra;
@@ -42,7 +43,7 @@ include_once($BASE_DIR . "pages/template/begin.php");
          <li><a data-toggle="tab" href="#historico">Histórico</a></li>
       </ul>
 
-
+<script src="../javascript/adicionarJogo.js"/></script>
       <div class="tab-content">
          <br/>
 
@@ -55,7 +56,6 @@ include_once($BASE_DIR . "pages/template/begin.php");
                   <thead>
                      <tr>
                         <th>Jogo</th>
-                        <th>Plataforma</th>
                         <th>Preço</th>
                         <th>Data adicionado</th>
                         <th></th>
@@ -63,45 +63,36 @@ include_once($BASE_DIR . "pages/template/begin.php");
                      </tr>
                   </thead>
                   <tbody>
+
                      <?php
                      foreach($carrinho as $compra)
                      {
-                        $linkComprar = $BASE_URL . "pages/comprar.php?idJogo=" . $compra["idJogo"] . "&idPlataforma=" . $compra["idPlataforma"];
-                        $linkRemover = $BASE_URL . "action/remover.php?idJogo=" . $compra["idJogo"] . "&idPlataforma=" . $compra["idPlataforma"];
+                        $compra=json_decode($compra);
+                        
+                        $linkComprar = $BASE_URL . "pages/comprar.php?idJogo=" . $compra->{"artigo"};
+                        $linkRemover = $BASE_URL . "action/remover.php?idJogo=" . $compra->{"artigo"};
                         ?>
                         <tr>
                            <td>
                               <?php
-                              echo $compra["nomeJogo"];
+                              echo $compra->{"artigo"};
                               ?>
                            </td>
 
                            <td>
                               <?php
-                              echo $compra["nomePlataforma"];
+                              echo $compra->{"preco"} . "€";
                               ?>
                            </td>
 
                            <td>
                               <?php
-                              echo $compra["preco"] . "€";
+                              echo $compra->{"adicionado"};
                               ?>
                            </td>
 
                            <td>
-                              <?php
-                              echo $compra["dataAdicionado"];
-                              ?>
-                           </td>
-
-                           <td>
-                              <a href="<?php echo $linkComprar;?>">
-                                 Comprar
-                              </a>
-                           </td>
-
-                           <td>
-                              <a href="<?php echo $linkRemover;?>">
+                              <a onclick='removerJogo(<?php echo json_encode($_SESSION[login][dados]->{'CodCliente'})?>,<?php echo json_encode($compra->{"artigo"})?>)'>
                                  Remover
                               </a>
                            </td>
@@ -111,6 +102,8 @@ include_once($BASE_DIR . "pages/template/begin.php");
                      ?>
                   </tbody>
                </table>
+
+               <button onclick='comprarArtigos(<?php echo json_encode($compras) ?>)'>Comprar</button>
                <?php
             }
             else

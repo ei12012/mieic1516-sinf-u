@@ -9,8 +9,7 @@
       header("Location: " . $BASE_URL);
 
    $idJogo = $_GET["id"];
-   $nifCliente =  $_SESSION["login"]["dados"]->{"NomeCliente"};
-
+   $nifCliente =  $_SESSION["login"]["dados"]->{"NumContribuinte"};
    $resultado = inserirCarrinho($idJogo, $idPlataforma,$nifCliente);
 
    if ($resultado == false)
