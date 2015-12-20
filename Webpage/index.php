@@ -20,6 +20,7 @@ include_once($BASE_DIR . "pages/template/begin.php");
 function apresentar($arg)
 {
 	global $BASE_URL;
+	global $_SESSION;
 	echo "<div class='col-sm-4'>";
 		echo "<div class='panel panel-default'>";
 			echo "<ul class='list-group'>";
@@ -32,14 +33,10 @@ function apresentar($arg)
 						echo "</a>";			
 					echo "</h4>";
 					echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "€</p>";				
-					if (isset($_SESSION["login"]) && $_SESSION["login"]["tipo"] == 0)
+					if (isset($_SESSION["login"]))
 						{
-
-							echo "<a onclick='adicionarJogoIndex(".json_encode($_SESSION[login][dados]->{"CodCliente"}).",\"".$arg->{'CodArtigo'}."\")' >";
-							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>Adicionar ao carrinho";
-							echo "</a>";
-						}else{
-							echo "<a  href='pages/acesso.php'>";
+	
+							echo "<a onclick='adicionarJogoIndex(".json_encode($_SESSION["login"]["dados"]->{"CodCliente"}).",\"".$arg->{'CodArtigo'}."\")' >";
 							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>Adicionar ao carrinho";
 							echo "</a>";
 						}

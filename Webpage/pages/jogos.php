@@ -29,21 +29,14 @@
 							echo "</a>";			
 						echo "</h4>";
 
-						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "</p>";	
+						echo "<p class='list-group-item-text'>" . round($arg->{'Preco'}, 2) . "€</p>";	
 						
-						if (isset($_SESSION["login"]) && $_SESSION["login"]["tipo"] == 0)
+						if (isset($_SESSION["login"]))
 						{
-							echo "<a onclick='adicionarJogo(".json_encode($_SESSION[login][dados]->{"CodCliente"}).",\"".$arg->{'CodArtigo'}."\")' >";
+							echo "<a onclick='adicionarJogo(".json_encode($_SESSION["login"]["dados"]->{"CodCliente"}).",\"".$arg->{'CodArtigo'}."\")' >";
 							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span> Adicionar ao Carrinho";
 							echo "</a>";
-						}else{
-							echo "<a  href='acesso.php'>";
-							echo "	<span class='glyphicon glyphicon-shopping-cart text-danger'></span>Adicionar ao carrinho";
-							echo "</a>";
 						}
-
-						
-
 					echo "</li>";	
 				echo "</ul>";	
 			echo "</div>";

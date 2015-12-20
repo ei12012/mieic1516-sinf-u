@@ -8,15 +8,13 @@
 	
 	// SET BASE DIRECTORY & URL
 	//$MAIN_DIR = 'ProjectoSINF/Webpage/';
-	$MAIN_DIR = 'SINF/';
-	$MAIN_DIR_WINDOWS = 'ProjectoSINF/';
+	//$MAIN_DIR = 'SINF/';
+	//$MAIN_DIR_WINDOWS = 'ProjectoSINF/';
 	
 	// WINDOWS
-	//$BASE_DIR = '/xampp/htdocs/Webpage/';
-	//$BASE_DIR_DB = '/xampp/htdocs/Database/';
-	$BASE_DIR = $_SERVER['DOCUMENT_ROOT'].'/';
-	$BASE_DIR_DB = $_SERVER['DOCUMENT_ROOT'].'/';
-	$BASE_URL = 'http://localhost:3000/';
+	$BASE_DIR = '/xampp/htdocs/Webpage/';
+	//$BASE_DIR = $_SERVER['DOCUMENT_ROOT'].'/';
+	$BASE_URL = 'http://localhost:3000/Webpage/';
 
 	// LINUX / MAC
 	

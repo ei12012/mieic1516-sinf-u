@@ -40,7 +40,6 @@ include_once($BASE_DIR . "pages/template/begin.php");
 
       <ul class="nav nav-tabs">
          <li class="active"><a data-toggle="tab" href="#espera">Espera</a></li>
-         <li><a data-toggle="tab" href="#historico">Histórico</a></li>
       </ul>
 
 <script src="../javascript/adicionarJogo.js"/></script>
@@ -109,71 +108,6 @@ include_once($BASE_DIR . "pages/template/begin.php");
                <span id="msgCompra" style="visibility:hidden;color:red;font-size:2vw;">A comunicar a compra. Por favor, espere...</span></br>
                <button id="btnCompra" onclick='comprarArtigos(<?php echo json_encode($compras) ?>)'>Comprar</button></br>
                <span id="msgCompraEft" style="visibility:hidden;color:red;font-size:2vw;">Compra Efetuada</span></br>
-               <?php
-            }
-            else
-            {
-               echo "(Nada apresentar)";
-            }
-            ?>
-         </div>
-
-         <div id="historico" class="tab-pane fade">
-            <?php
-            if (count($historico) != 0)
-            {
-               ?>
-               <table class="table table-hover table-condensed">
-                  <thead>
-                     <tr>
-                        <th>Jogo</th>
-                        <th>Plataforma</th>
-                        <th>Preço</th>
-                        <th>Data adicionado</th>
-                        <th>Data comprado</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <?php
-                     foreach($historico as $compra)
-                     {
-                        ?>
-                        <tr>
-                           <td>
-                              <?php
-                              echo $compra["nomeJogo"];
-                              ?>
-                           </td>
-
-                           <td>
-                              <?php
-                              echo $compra["nomePlataforma"];
-                              ?>
-                           </td>
-
-                           <td>
-                              <?php
-                              echo $compra["preco"] . "€";
-                              ?>
-                           </td>
-
-                           <td>
-                              <?php
-                              echo $compra["dataAdicionado"];
-                              ?>
-                           </td>
-
-                           <td>
-                              <?php
-                              echo $compra["dataComprado"];
-                              ?>
-                           </td>
-                        </tr>
-                        <?php
-                     }
-                     ?>
-                  </tbody>
-               </table>
                <?php
             }
             else

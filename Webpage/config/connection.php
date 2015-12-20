@@ -2,7 +2,8 @@
 	try
 	{
 		//$text = "sqlite:/Users/Miguel Moreira/Documents/Webpages/ProjectoSINF/Database/dados.db";
-		$text = "sqlite:" . $BASE_DIR_DB . "/dados.db";
+
+		/*$text = "sqlite:" . $BASE_DIR_DB . "/dados.db";
 		
 		$basedados = new PDO($text);
 		if ($basedados === false)
@@ -13,7 +14,7 @@
 
 		$basedados->setAttribute(PDO::ATTR_PERSISTENT, true);
 		$basedados->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-		$basedados->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		$basedados->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);*/
 
 		function executarSQL($query)
 	   {
